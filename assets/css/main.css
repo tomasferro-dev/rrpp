@@ -3584,7 +3584,7 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 		}
 
 	@media screen and (max-width: 1280px) {
@@ -3660,13 +3660,14 @@ input, select, textarea {
 		margin-bottom: 10%;
 	}
 
-	
+
 
 	.map-wrapper{
 		width: 100%;
 		display: flex;
 		justify-content: center;
 	}
+
 	@media screen and (max-width: 736px) {
 		.info-importante {
 			display: grid;
@@ -3675,7 +3676,15 @@ input, select, textarea {
 
 	.side{
 		width: 100%;
+		display: flex;
+		justify-content: flex-start;
 	}
+	@media screen and (max-width: 736px) {
+		.contact-title{
+			margin-top: 30px;
+		}
+	}
+	
 
 	.important{
 		color: red;
